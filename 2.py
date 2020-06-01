@@ -13,3 +13,7 @@ if __name__ == '__main__':
     a = 1
     b= 2
     v = 3
+    c = 1
+    for i in range(10):
+        c += a ** 2
+        print(c)
